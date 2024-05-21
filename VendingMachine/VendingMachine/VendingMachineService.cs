@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VendingMachine
 {
-    internal class VendingMachineService : IVending
+    public class VendingMachineService : IVending
     {
         public string Details(int productId)
         {
